@@ -1,0 +1,70 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-bar {
+    max-width: 1160px;
+}
+
+.navbar-brand-t {
+    font-weight: 700;
+    font-size: 22px;
+    color: #3E3E3E;
+}
+.sticky-portion{
+display: none;
+    height: 40px;
+    width: 250px;
+    border-left: 8px solid #3F87F5;
+    position: relative; 
+    background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        max-width: 100%;
+    }
+    .wadding-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .nav-bar {
+        max-width: 100%;
+    }
+    .wadding-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .nav-bar {
+        max-width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .wadding-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .nav-bar {
+        max-width: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .nav-bar {
+        max-width: auto;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
