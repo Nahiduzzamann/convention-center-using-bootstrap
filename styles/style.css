@@ -12,19 +12,22 @@
     font-size: 22px;
     color: #3E3E3E;
 }
-.sticky-portion{
-display: none;
+
+.sticky-portion {
+    display: none;
     height: 40px;
     width: 250px;
     border-left: 8px solid #3F87F5;
-    position: relative; 
+    position: relative;
     background-color: #ffffff;
 }
+
 @media screen and (max-width: 576px) {
     .nav-bar {
         max-width: 100%;
     }
-    .wadding-section{
+
+    .wadding-section {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -35,7 +38,8 @@ display: none;
     .nav-bar {
         max-width: 100%;
     }
-    .wadding-section{
+
+    .wadding-section {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -47,7 +51,8 @@ display: none;
         margin-left: 50px;
         margin-right: 50px;
     }
-    .wadding-section{
+
+    .wadding-section {
         display: flex;
         flex-direction: column-reverse;
     }
