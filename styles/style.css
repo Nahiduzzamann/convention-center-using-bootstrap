@@ -49,7 +49,9 @@
 .ok-icon>i{
     color: #5243C2;
 }
-
+.client-day-card-content{
+    width: 252px;
+}
 @media screen and (max-width: 576px) {
     .nav-bar {
         width: 100%;
