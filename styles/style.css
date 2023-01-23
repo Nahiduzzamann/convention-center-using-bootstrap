@@ -74,6 +74,9 @@
         padding-left: 0;
         padding-top: 0;
     }
+    .ask-ques{
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -99,6 +102,9 @@
         padding-left: 0;
         padding-top: 0;
     }
+    .ask-ques{
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -112,6 +118,9 @@
     .wadding-section {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .ask-ques{
+        margin-bottom: 20px;
     }
 }
 
